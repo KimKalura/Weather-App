@@ -53,21 +53,6 @@ public class CurrentWeatherDTO {
         this.windSpeed = windSpeed;
     }
 
-  /*  public String getCityName() {
-        return cityName;
-    }
-
-    public void setCityName(String cityName) {
-        this.cityName = cityName;
-    }
-
-    public String getCountryName() {
-        return countryName;
-    }
-
-    public void setCountryName(String countryName) {
-        this.countryName = countryName;
-    }*/
 
     public LocalDateTime getDate() {
         return date;

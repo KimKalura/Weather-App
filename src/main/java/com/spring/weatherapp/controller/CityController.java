@@ -39,5 +39,4 @@ public class CityController {
         return cityService.getUserFavoriteCities(userId);
     }
 
-
 }

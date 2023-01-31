@@ -23,7 +23,7 @@ import java.util.List;
 
 @Service
 public class WeatherService {
-    private static final String CURRENT_WEATHER_URL = "https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}&units=metric";//&units=metric
+    private static final String CURRENT_WEATHER_URL = "https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}&units=metric";
     private static final String FORECAST_WEATHER_URL = "https://api.openweathermap.org/data/2.5/forecast?q={city name}&appid={API key}&units=metric";
     @Value("${api.openweathermap.key}")
     private String apiKey;

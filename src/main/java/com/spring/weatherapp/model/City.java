@@ -20,7 +20,7 @@ public class City {
     @Column
     private String name;
 
-    @ManyToMany//(cascade = {CascadeType.PERSIST,CascadeType.MERGE})
+    @ManyToMany
     @JoinTable(
             name = "user_city",
             joinColumns = @JoinColumn(name = "city_id"),
