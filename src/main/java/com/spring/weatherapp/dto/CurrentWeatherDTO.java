@@ -7,8 +7,6 @@ public class CurrentWeatherDTO {
     private Double temperature;
     private Double feelsLikeTemperature;
     private Double windSpeed;
-  /*  private String cityName;
-    private String countryName;*/
     private LocalDateTime date;
 
     public CurrentWeatherDTO(String description, Double temperature, Double feelsLikeTemperature, Double windSpeed, LocalDateTime date) {
