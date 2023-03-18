@@ -3,7 +3,6 @@ package com.spring.weatherapp.service;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-//import org.apache.tomcat.websocket.server.UriTemplate;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.spring.weatherapp.dto.CurrentWeatherDTO;
 import org.springframework.beans.factory.annotation.Autowired;
