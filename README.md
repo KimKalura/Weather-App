@@ -22,7 +22,7 @@ The purpose of this application is for the user to be able to see the weather. A
 
 ## Features
 
-As an user, I can:
+As a client, I can:
 -	add favorite city
 -	delete city
 -	view favorite cities
@@ -227,7 +227,9 @@ To deploy this project run
 
 You cand use demo version of the app, using SwaggerUI and following this link:
 
---
+```bash
+https://floating-shelf-28500.herokuapp.com/swagger-ui/
+```
 
 First, obtain an access token by running the /authenticate endpoint with username "user" and password "pass", which will grant you admin rights in the application.
 
