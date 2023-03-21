@@ -43,9 +43,8 @@ public class User {
     public User() {
     }
 
-    public Long getId() {
-        return id;
-    }
+
+
 
     public String getUsername() {
         return username;
@@ -82,10 +81,6 @@ public class User {
         this.cityList = cityList;
     }
 
-    public void setId(Long id) {
-        this.id = id;
-    }
-
     public List<Role> getRoleList() {
         if (roleList == null) {
             roleList = new ArrayList<>();
@@ -96,4 +91,5 @@ public class User {
     public void setRoleList(List<Role> roleList) {
         this.roleList = roleList;
     }
+
 }

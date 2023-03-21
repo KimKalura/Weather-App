@@ -1,6 +1,5 @@
 package com.spring.weatherapp.repository;
 
-
 import com.spring.weatherapp.model.Role;
 import com.spring.weatherapp.model.RoleType;
 import org.springframework.data.jpa.repository.JpaRepository;

@@ -19,18 +19,17 @@ import java.util.Optional;
 
 @Service
 public class UserService {
-
-    private CityRepository cityRepository;
     private UserRepository userRepository;
     private RoleRepository roleRepository;
-    @Autowired
+
+
     private PasswordEncoder passwordEncoder;
 
-
     @Autowired
-    public UserService(UserRepository userRepository, RoleRepository roleRepository) {
+    public UserService(UserRepository userRepository, RoleRepository roleRepository, PasswordEncoder passwordEncoder) {
         this.roleRepository = roleRepository;
         this.userRepository = userRepository;
+        this.passwordEncoder = passwordEncoder;
     }
 
 
