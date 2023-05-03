@@ -3,7 +3,7 @@
 Here you can find the documentation of the WeatherApp project
 
 ## 🚀 About Me
-💻(Aspiring) back-end software developer | 👨‍💻Helping companies to build great back-ends | Java, Spring Boot | Passionate about solving problems using technology 
+💻Back-end software developer | 👨‍💻Helping companies to build great back-ends | Java, Spring Boot | Passionate about solving problems using technology 
 
 
 ## 🛠 Skills
